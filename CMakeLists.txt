@@ -12,7 +12,7 @@ add_executable(example example.c)
 target_link_libraries(example PRIVATE m ballistics)
 #install(TARGETS example DESTINATION bin)
 
-add_library(ballistics STATIC
+add_library(ballistics 
         angle.c
         atmosphere.c
         ballistics.c
